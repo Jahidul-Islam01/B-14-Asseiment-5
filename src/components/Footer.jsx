@@ -103,27 +103,4 @@ const Footer = () => {
         <div className="flex flex-col gap-4 border-t border-slate-100 py-7 text-xs text-slate-400 sm:flex-row sm:items-center sm:justify-between">
           <p>© 2026 StackForge Hub. All rights reserved.</p>
 
-          <div className="flex gap-6">
-            <a
-              id="privacy"
-              href="#privacy"
-              className="transition hover:text-pink-500"
-            >
-              Privacy
-            </a>
-
-            <a
-              id="terms"
-              href="#terms"
-              className="transition hover:text-pink-500"
-            >
-              Terms
-            </a>
-          </div>
-        </div>
-      </div>
-    </footer>
-  );
-};
-
-export default Footer;
+          
