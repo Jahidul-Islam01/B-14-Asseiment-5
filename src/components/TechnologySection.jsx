@@ -49,20 +49,4 @@ const TechnologySection = ({
             </div>
 
 
-            <div className="order-1 lg:order-2 lg:sticky lg:top-24">
-              <StackPanel
-                stack={stack}
-                onRemove={onRemove}
-                onRemoveAll={onRemoveAll}
-              />
-            </div>
-          </div>
-        )}
-      </div>
-    </section>
-  );
-};
-
-
-export default TechnologySection;
-
+           
