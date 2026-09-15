@@ -1,16 +1,41 @@
-# React + Vite
+# StackForge Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+StackForge Hub is a responsive React app where users can explore different development technologies and build a custom tech stack.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React
+- JavaScript
+- Tailwind CSS
+- Vite
+- React Toastify
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Browse 12 development technologies
+- Add or remove technologies from the stack
+- Responsive layout for mobile, tablet, and desktop
+- Toast notifications for user actions
 
-## Expanding the ESLint configuration
+## React Questions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. What is JSX?
+JSX lets us write HTML-like syntax inside JavaScript.
+
+### 2. What are props?
+Props are used to pass data from one component to another.
+
+### 3. What is state?
+State stores changing data inside a component.
+
+### 4. What does useState do?
+useState creates and updates state values.
+
+### 5. What does useEffect do?
+useEffect is used for side effects such as loading data.
+
+### 6. Why do we use keys in map()?
+Keys help React identify list items correctly.
+
+### 7. What is conditional rendering?
+It means showing different UI based on a condition.
