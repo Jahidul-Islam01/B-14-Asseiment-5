@@ -2,7 +2,6 @@ import Loading from "./Loading";
 import TechnologyCard from "./TechnologyCard";
 import StackPanel from "./StackPanel";
 
-
 const TechnologySection = ({
   technologies,
   loading,
@@ -23,13 +22,11 @@ const TechnologySection = ({
             <span className="brand-gradient-text">Technologies</span>
           </h2>
 
-
           <p className="mt-2 text-sm leading-6 text-slate-500">
             Choose the tools you like and build a development stack for your
             next project.
           </p>
         </div>
-
 
         {loading ? (
           <Loading />
@@ -48,5 +45,18 @@ const TechnologySection = ({
               ))}
             </div>
 
+            <div className="order-1 lg:order-2 lg:sticky lg:top-24">
+              <StackPanel
+                stack={stack}
+                onRemove={onRemove}
+                onRemoveAll={onRemoveAll}
+              />
+            </div>
+          </div>
+        )}
+      </div>
+    </section>
+  );
+};
 
-           
+export default TechnologySection;
